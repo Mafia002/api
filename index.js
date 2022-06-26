@@ -19,7 +19,7 @@ app.use('/api/news', routes)
 app.get('/', (req, res) => {
     res.json({
         status: 'success',
-        messege: 'hey😘'
+        messege: 'welldone'
     })
 })
 
